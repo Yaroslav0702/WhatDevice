@@ -5,7 +5,7 @@ return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|h
 }
 
 if(isMobile()){
-    header("Location: mobile/index-m.html");
+    header("Location: index-m.html");
 }
-else { header("Location: desktop/index-d.html"); }
+else { header("Location: index-d.html"); }
 	?>
